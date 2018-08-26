@@ -1,0 +1,18 @@
+2018-08-26 11:45:57,241 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2018-08-26 11:45:58,399 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:h2:mem:play
+2018-08-26 11:46:03,077 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-3 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-08-26 11:46:03,440 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.csrf.CSRFFilter
+    play.filters.cors.CORSFilter
+
+2018-08-26 11:46:03,448 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)
+2018-08-26 11:46:05,058 [ERROR] from controllers.CustomerController in play-dev-mode-akka.actor.default-dispatcher-3 - Failed to Dispatch Event to SalesForce . Details No configuration setting found for key 'sfdc' 
+2018-08-26 11:46:07,399 [ERROR] from controllers.CustomerController in play-dev-mode-akka.actor.default-dispatcher-9 - Failed to Dispatch Event to SalesForce . Details No configuration setting found for key 'sfdc' 
+2018-08-26 11:46:08,392 [ERROR] from controllers.CustomerController in play-dev-mode-akka.actor.default-dispatcher-3 - Failed to Dispatch Event to SalesForce . Details No configuration setting found for key 'sfdc' 
+2018-08-26 11:46:11,738 [ERROR] from controllers.CustomerController in play-dev-mode-akka.actor.default-dispatcher-9 - Failed to Dispatch Event to SalesForce . Details No configuration setting found for key 'sfdc' 
+2018-08-26 11:46:49,722 [ERROR] from controllers.CustomerController in play-dev-mode-akka.actor.default-dispatcher-28 - Failed to Dispatch Event to SalesForce . Details No configuration setting found for key 'sfdc' 
+2018-08-26 11:46:52,394 [ERROR] from controllers.CustomerController in play-dev-mode-akka.actor.default-dispatcher-6 - Failed to Dispatch Event to SalesForce . Details No configuration setting found for key 'sfdc' 
